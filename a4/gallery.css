@@ -1,0 +1,11 @@
+/* Gallery Page CSS */
+
+.photoBlock {
+    width: 100%;
+    padding-top: 1em;
+    box-shadow: 1px 1px 2px #ccc;
+}
+
+.photoBlock img {
+    width: 100%; /*This code will resize the images to the block and constrain them to block dimensions*/
+}

@@ -1,0 +1,61 @@
+/* Main Stylesheet for Project 4 */
+
+body {
+    font-family: arial, sans-serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    border-bottom: solid 2px darkgoldenrod;
+    text-align: center;
+    background-color: #333;
+    color: darkgoldenrod;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    float: left;
+    text-decoration: none;
+    font-weight: 600;
+    width: 20%;
+    height: 2em;
+    line-height: 2em; /* setting the adjustment with the height eliminating the need for padding */
+    background-color: #333;
+}
+
+nav a:link, nav a:visited {
+    color: darkgoldenrod;
+}
+
+nav a:hover {
+    color: white;
+    background-color: darkslategray;
+}
+
+section {
+    background-color: #ddd;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+    padding-right: 2em;
+}
+
+section p {
+    text-indent: 2em;
+}
+
+footer {
+    text-align: center;
+    line-height: 3em;
+    border-top: solid 2px darkgoldenrod;
+    background-color: #333;
+    color: darkgoldenrod;
+    
+}
+
