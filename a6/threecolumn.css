@@ -1,0 +1,16 @@
+/* Three Column CSS */
+
+.sideBlock {
+    width: 20%;
+    float: left;
+}
+
+#mainBlock {
+    width: 48%;
+    float: left;
+    column-count: 1;
+}
+
+footer {
+    clear: left;
+}

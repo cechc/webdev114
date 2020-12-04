@@ -1,0 +1,22 @@
+/* Two Column Page Layout using CSS */
+
+#leftSide {
+    width: 20%;
+    float: left;
+}
+
+#mainBlock {
+    width: 68%;
+    float: right;
+}
+
+#rightSide {
+    clear: both;
+    position: relative;
+    width: 20%;
+    top: -20em;
+}
+
+footer {
+    clear: both;
+}
